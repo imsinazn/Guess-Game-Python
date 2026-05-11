@@ -44,7 +44,7 @@ python game.py
 
 
 
-
+```mermaid
 gantt
     title نقشه راه توسعه سالمند یار (۸ ماهه)
     dateFormat YYYY-MM-DD
@@ -65,3 +65,6 @@ gantt
     
     بخش بازاریابی :mark1، after final2، 180d
     تبلیغات و جذب کاربر اولیه : mark2، after final2، 180d
+
+
+```
