@@ -41,3 +41,27 @@ Your point is = 20
 git clone https://github.com/imsinazn/Guess-Game-Python.git
 cd Guess-Game-Python
 python game.py
+
+
+
+
+gantt
+    title نقشه راه توسعه سالمند یار (۸ ماهه)
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+    
+    بخش طراحی و مستندسازی :done، des1، 2025-01-01، 60d
+    طراحی UI/UX :active، des2، after des1، 45d
+    مستندسازی فنی (SRS) : des3، after des1، 45d
+    
+    بخش توسعه فنی :crit، dev1، after des3، 150d
+    پیاده‌سازی بک‌اند و API : dev2، after des3، 60d
+    ساخت MVP با ۴ ماژول اصلی : dev3، after dev2، 60d
+    تست امنیتی و رفع اشکال : dev4، after dev3، 30d
+    
+    بخش نهایی‌سازی :final1، after dev4، 45d
+    اخذ مجوزها (شامد، اینماد، وزارت بهداشت) : final2، after dev4، 45d
+    انتشار نسخه ۱.۰ در کافه‌بازار و مایکت : milestone، final2، 0d
+    
+    بخش بازاریابی :mark1، after final2، 180d
+    تبلیغات و جذب کاربر اولیه : mark2، after final2، 180d
